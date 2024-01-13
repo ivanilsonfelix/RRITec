@@ -41,6 +41,44 @@
 
   }
 
+
+
+  /* Estilizar o banner do header */
+  .banner-flex {
+      background-image: url(Assets/img/Banner.png);
+     
+      height: 192.273px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  }
+
+  .titulo-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    height: auto;
+    
+
+  }
+
+  .titulo-header h1 {
+      color: #FFF;
+    
+      font-family: var(--josefinsans);
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.8px;
+  }
+
+
+
+
   /* Estilizar telas do painel */
 
   .dashboard-flex {
@@ -164,8 +202,8 @@
 
   .cad-reserva {
       display: flex;
-    justify-content: flex-start;
-    gap: 30px;
+      justify-content: flex-start;
+      gap: 30px;
       border: 2px solid black;
       background-color: #FFFFFF;
       width: 100%;
@@ -175,7 +213,7 @@
 
   .cad-reserva h2 {
       margin-top: 10px;
-      
+
       color: #984040;
       text-transform: uppercase;
       text-align: center;
@@ -190,24 +228,24 @@
   /* Estilizar itens reserva */
 
   .itens-reserva {
-    display: flex;
-    justify-content: flex-start;
-    gap: 70px;
-    
-    background-color: #6C757D;
-    width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      gap: 70px;
+
+      background-color: #6C757D;
+      width: 100%;
   }
 
   .itens-reserva h2 {
-    color: #FFF;
+      color: #FFF;
 
-text-align: center;
-font-family: Poppins;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.48px;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.48px;
   }
 
 
@@ -218,13 +256,49 @@ letter-spacing: 0.48px;
   }
 
   .list-salas H1 {
-    color: #000;
+      color: #000;
+      text-align: center;
+      font-family: Josefin Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.48px;
+  }
 
-text-align: center;
-font-family: Josefin Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.48px;
+  .itens-salas {
+      border: 2px solid black;
+      display: flex;
+      justify-content: space-around;
+
+
+  }
+
+  .itens-salas h2 {
+      color: #984040;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.48px;
+  }
+
+  .cad-salas {
+      display: flex;
+      justify-content: space-around;
+      background-color: #6C757D;
+  }
+
+  .cad-salas h2 {
+      color: #FFF;
+
+      text-align: center;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.48px;
   }
