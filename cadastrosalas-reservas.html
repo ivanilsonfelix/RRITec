@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>
+                Senai Classroom
+            </h1>
+        </div>
+        <div><img src="./imagens/image 1.png">
+
+        </div>
+    </header>
+    <!-- primeiro formulário usando label e input -->
+    <form class="form01">
+        <label for="primeiro nome"> Nome </label>
+        <input type="text" name="Nome01" id="" placeholder="Digite seu nome aqui..."><br>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="Nome02" id="" placeholder="Digite seu sobrenome aqui...">
+    </form>
+
+    
+    <!-- form para realizar o cadastro de uma pessoa
+     -->
+    <form class="form02">
+        <label for="primeiro nome">Nome</label>
+        <input type="text" name="nomeUser" id="" placeholder="Digite seu primeiro nome aqui...">
+        <label for="segundo nome">Sobrenome</label>
+        <input type="text" name="nomeUser" id="" placeholder="Digite seu sobrenome aqui...">
+        <label for="email">Email</label>
+        <input type="email" name="emailUser" id="" placeholder="Digite seu email...">
+        <label for="idade">Data de nascimento</label>
+        <input type="date" name="Idade do usuário" id="">
+        <h4>Informe seu Gênero</h4>
+        <input type="radio" name="genero">
+        <label for="genero">Masculino</label>
+        <input type="radio" name="genero">
+        <label for="genero">Feminino</label>
+        <label for="comentario">Comentário</label>
+        <textarea name="" id="" cols="60" rows="10" placeholder="Descreva sobre você..."></textarea>
+        <button type="submit" onclick="cliqueAqui()">Cadastre-se</button>
+        
+
+
+    </form>
+    <!-- função criada para retorna mensagem do cadastro -->
+    <script>
+        function cliqueAqui(){
+            alert("Usuário cadastraddo com sucesso!")
+        }
+
+    </script>
+</body>
+
+</html>
