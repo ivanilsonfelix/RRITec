@@ -144,6 +144,7 @@
       width: 100%;
       margin-top: 20px;
 
+
   }
 
   .list-reserva h1 {
@@ -155,6 +156,7 @@
       font-weight: 700;
       line-height: normal;
       letter-spacing: 0.48px;
+      margin-top: 10px;
   }
 
 
@@ -163,16 +165,18 @@
   .cad-reserva {
       display: flex;
       justify-content: space-between;
-      margin-top: 10px;
+      border: 2px solid black;
       background-color: #FFFFFF;
       width: 100%;
-      
+
 
   }
 
   .cad-reserva h2 {
+      margin-top: 10px;
+      width: 80%;
       color: #984040;
-    text-transform: uppercase;
+      text-transform: uppercase;
       text-align: center;
       font-family: var(--poppins);
       font-size: 12px;
@@ -180,6 +184,28 @@
       font-weight: bold;
       line-height: normal;
       letter-spacing: 0.48px;
+  }
+
+  /* Estilizar itens reserva */
+
+  .itens-reserva {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #6C757D;
+    width: 100%;
+  }
+
+  .itens-reserva h2 {
+    color: #FFF;
+width: 80%;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.48px;
   }
 
 
