@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senai Classroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="senai">
+            <div>Senai Classroom</div>
+            </div>
+            <div class="box">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="cadastro.html">Cadastro de salas</a></div>
+                <div><a href="reserva.html">Reserva de salas</a></div>
+                <div><a href="dashboard.html">Dashboard</a></div>
+                <div><a href="contato.html">Contato</a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <h1> BEM VINDO! </h1>
+            <h2>Seja bem-vindo(a) ao portal de gerenciamento de salas do Senai Classroom. Faça o seu login para prosseguir ou cadastre-se</h2>
+            <p>Log in to proceed or register.</p>
+            <form action="login.html" method="post">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <div>
+                    <input type="checkbox"id="docente"name="modo"value="docente" />
+                    <label for="docente"> Docente </label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id=" administrador" name="modo" value="administrador" />
+                    <label for="administrador"> Administrador </label>
+                  </div>
+                <button type="submit">Login<img src="porta.png"></button> 
+                <button type="submit">Esqueci minha senha<img src="envelope.png"></button>
+                <button type="submit">Cadastre-se<img src="+.png"></button>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <section class="social-media">
+            <ul>
+                <li><a href="https://www.linkedin.com/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+                <li><a href="mailto:suporte@senai" target="_blank"><img src="outlook.png" alt="suporte@senai"></a></li>
+                <li><a href="telefone" target="_blank"><img src="celular.png" alt="(11) 98988-9898"></a></li>
+                <li><a href="mapa" target="_blank"><img src="mapa.png" alt="Rua Ipiranga"></a></li>        
+            </ul>
+            </section>
+        <p>&copy; SENAI-SP-2024</p>
+        <p>Support: (11)-98623-5689 | Street: Ipiranga</p>
+    </footer>
+</body>
+</html>
