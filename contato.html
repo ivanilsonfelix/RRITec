@@ -44,93 +44,111 @@
             <div class="tela">
                 <div class="tela01">
                     <img src="Assets/img/portaledu.png" alt="portaledu">
-                    <h1>Sistema de Gerenciamento de Salas</h1>
+                    <h1>Envie suas Dúvidas!!</h1>
 
                 </div>
 
                 <div class="tela02">
-                    <h1>BEM VINDO!</h1>
-                    <h2>Seja bem-vindo(a) ao portal de gerenciamento de salas do Senai Classroom. Faça o seu login para
-                        prosseguir ou cadastre-se. </h2>
+                    <h1>CONTATO!</h1>
+                    <h2>Nossa missão é otimizar a gestão dos clientes e alavancar o sucesso da sua empresa. </h2>
+
 
                     <fieldset>
                         <legend id="legenda-flex">
-                           <h1>Sistema Educacional</h1>
+                            <h1>Sistema Educacional</h1>
                         </legend>
                         <!-- Criar o formulário de login -->
-                        <section class="container-grid form-flex">
-                            <form class="form" action="#">
+                        <section class="container-grid form-contato-flex">
+                            <form class="form-cadastros" action="#">
 
 
-                                <div class="form-login">
+                                <div class="form-contato">
 
-                                    <label for="fname">E-mail:</label>
-                                    <input type="text" id="login" name="login">
+                                    <label for="nomecontato">Nome:</label>
+                                    <input type="text" id="nomecontato" name="nomecontato">
                                 </div>
-                                <div class="form-login">
 
-                                    <label for="password">Senha:</label>
-                                    <input type="text" id="password" name="password">
-                                </div>
 
                             </form>
                         </section>
 
                         <!-- Criar o formulário de login -->
-                        <section class="container-grid form-flex">
-                            <form class="form" action="#">
+                        <section class="container-grid form-contato-flex">
+                            <form class="form-cadastros" action="#">
 
 
-                                <div class="form-login">
-                                    <div class="radio-flex">
+                                <div class="form-contato">
 
-                                        <label for="docente">Docente:</label>
-                                        <input type="radio" id="docente" name="docente">
-                                        <label for="adm">Administrador:</label>
-                                        <input type="radio" id="adm" name="adm">
-                                    </div>
+                                    <label for="sobrenome">Sobrenome:</label>
+                                    <input type="text" id="sobrenomecontato" name="sobrenome">
                                 </div>
 
 
 
                             </form>
                         </section>
-                        <!-- Criar botão de login de login -->
-                        <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-login" type="button"><img src="Assets/img/loginbutton.png" alt="login"><h2>Login</h2></button>
+                        <!-- Criar o formulário de login -->
+                        <section class="container-grid form-contato-flex">
+                            <form class="form-cadastros" action="#">
 
-                        </div>
-                        </section>
-                         <!-- Criar botão de login de esqueci senha -->
-                        <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-reset-senha" type="button"><img src="Assets/img/loginbutton.png" alt="resetsenha"><h2>Esqueci minha Senha</h2></button>
 
-                        </div>
-                        </section>
-                         <!-- Criar botão de cadastro -->
-                        <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-cadastros" type="button"><img src="Assets/img/imgcadastro.png" alt="cadastro"><a href="caddocentes.html" target="_blank"><h2>Cadastro de Docentes</h2></a></button>
+                                <div class="form-contato">
 
-                        </div>
-                        </section>
-                         <!-- Criar botão de cadastro -->
-                        <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-cadastros" type="button">
-                                <img src="Assets/img/imgcadastro.png" alt="cadastro">
-                                <a href="cadadm.html" target="_blank"><h2>Cadastro de Administradores</h2></a>
-                            
-                            </button>
+                                    <label for="emailcontato">E-mail:</label>
+                                    <input type="text" id="emailcontato" name="emailcontato">
+                                </div>
 
-                        </div>
+                            </form>
                         </section>
-                    
-                
+                        <!-- Criar o formulário de login -->
+                        <section class="container-grid form-contato-flex">
+                            <form class="form-cadastros" action="#">
+
+
+                                <div class="form-contato">
+
+                                    <label for="duvida">Sobre o que você deseja falar?:</label>
+                                    <input type="text" id="duvida" name="duvida">
+                                </div>
+
+
+
+                            </form>
+                        </section>
+                        <!-- Criar o formulário de login -->
+                        <section class="container-grid form-flex">
+                            <form class="form-cadastros" action="#">
+
+
+                                <div class="form-contato">
+
+                                    <label for="nos conte o que deseja">Nos conte o que deseja...</label>
+
+                                    <!-- Maxlength limita o numero de caracteres a ser digitado -->
+                                    <textarea name="informacoes" id="informacoes" cols="60" rows="6"
+                                        placeholder="Digite aqui..." maxlength="100"></textarea>
+                                    
+                                </div>
+
+
+
+                            </form>
+
+
+
+                        </section>
+
+                        <section class="container-grid form-flex">
+                            <div class="botao-flex">
+                                <button class="button-cadastros" type="button">
+                                    <img src="Assets/img/emailsenha.png" alt="cadastro">
+                                    <h2>Enviar</h2>
+
+                                </button>
+
+                            </div>
+                        </section>
                     </fieldset>
-
 
                 </div>
             </div>
@@ -138,7 +156,6 @@
 
 
         </section>
-
 
 
 
