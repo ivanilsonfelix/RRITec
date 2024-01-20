@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,72 +8,63 @@
 </head>
 <header>
     
-     <section class="container-grid headerCadastroDocente">
+     <section class="container-gridheader">
             <div class="cadastroDocente">
-                <h1>Senai Classroom</h1>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#cadastroDeSalas">Cadastro de salas</a></li>
-                    <li><a href="#reservaDeSalas">Reserva de salas</a></li>
-                    <li><a href="#dashboard">Dashboard</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-
+                <div class="tituloheader"><h1>Senai Classroom</h1></div>
+                <div class= "headerlink">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#cadastroDeSalas">Cadastro de salas</a></li>
+                        <li><a href="#reservaDeSalas">Reserva de salas</a></li>
+                        <li><a href="#dashboard">Dashboard</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
             </div>
-            
-            
         </section>
         <section class="bannerportal">
-
-
-            <div class="container-grid bannerportal">
-                <div class="centro-img">
+            
+                <div class="bannerimg">
                     <img src="./imagens/image 4.png">
+                    <h1>Cadastro de Docentes</h1>
+
                 </div>
+                
+                <div class="formcaddoc">
+                    
+                    <form class="formcd">
+                        <h1>BEM VINDO!</h1>
+                        <h2>Seja bem-vindo(a) ao portal de cadastro de docente. Faça o seu cadastro...</h2>
+                        <label for="primeiro nome">Nome:</label>
+                        <input type="text" name="nomeUser" id="" placeholder="Digite seu primeiro nome aqui...">
+                        <label for="segundo nome">Sobrenome:</label>
+                        <input type="text" name="nomeUser" id="" placeholder="Digite seu sobrenome aqui...">
+                        <label for="email">Email:</label>
+                        <input type="email" name="emailUser" id="" placeholder="Digite seu email...">
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="cpfUser" id="" placeholder="Digite seu CPF..."> 
+                        <label for="numero celular"> Celular:</label>
+                        <input type="text" name="numero celular" id="" placeholder="Digite o número do celular...">
+                        <label for="cepUser">CEP:</label>
+                        <input type="text" name="cepUser" id="" placeholder="Digite seu CEP aqui...">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" name="bairroUser" id="" placeholder="Digite seu Bairro aqui...">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" name="cidadeUser" id="" placeholder="Digite sua Cidade...">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" name="enderecoUser" id="" placeholder="Digite seu Endereço..."> 
+                        <label for="senha"> Senha:</label>
+                        <input type="text" name="senhaUser" id="" placeholder="Digite sua senha...">
+                        <label for="confirmar senha">Confirmar Senha:</label>
+                        <input type="text" name="confirmarSenhaUser" id="" placeholder="Confirmar Senha">
+                        <button type="submit" onclick="cadastrar()">Cadastrar</button>
+                        <img src="./imagens/iconamoon_sign-plus-circle.png" alt="">
+                
+                
+                    </form>
 
-            </div>
-
+                </div>
         </section>
-        <section class="container-grid formCadastroDocente">
-            <div>
-                <h1>
-                    BEM VINDO!
-                </h1>
-                <h2>
-                    Seja bem-vindo(a) ao portal de cadastro de docente. Faça o seu cadastro...
-                </h2>
-            </div>
-            <form class="formcd">
-                <label for="primeiro nome">Nome:</label>
-                <input type="text" name="nomeUser" id="" placeholder="Digite seu primeiro nome aqui...">
-                <label for="segundo nome">Sobrenome:</label>
-                <input type="text" name="nomeUser" id="" placeholder="Digite seu sobrenome aqui...">
-                <label for="email">Email:</label>
-                <input type="email" name="emailUser" id="" placeholder="Digite seu email...">
-                <label for="cpf">CPF:</label>
-                <input type="text" name="cpfUser" id="" placeholder="Digite seu CPF..."> 
-                <label for="numero celular"> Celular:</label>
-                <input type="text" name="numero celular" id="" placeholder="Digite o número do celular...">
-                <label for="cepUser">CEP:</label>
-                <input type="text" name="cepUser" id="" placeholder="Digite seu CEP aqui...">
-                <label for="bairro">Bairro:</label>
-                <input type="text" name="bairroUser" id="" placeholder="Digite seu Bairro aqui...">
-                <label for="cidade">Cidade:</label>
-                <input type="text" name="cidadeUser" id="" placeholder="Digite sua Cidade...">
-                <label for="endereco">Endereço:</label>
-                <input type="text" name="enderecoUser" id="" placeholder="Digite seu Endereço..."> 
-                <label for="senha"> Senha:</label>
-                <input type="text" name="senhaUser" id="" placeholder="Digite sua senha...">
-                <label for="confirmar senha">Confirmar Senha:</label>
-                <input type="text" name="confirmarSenhaUser" id="" placeholder="Confirmar Senha">
-                <button type="submit" onclick="cadastrar()">Cadastrar</button>
-                <img src="./imagens/iconamoon_sign-plus-circle.png" alt="">
-        
-        
-            </form>
-
-        </section>
-
 </header>
 <footer>
     <div class="footercaddoc">

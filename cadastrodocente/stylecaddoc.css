@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container-gridheader{
+    width: 1440px;
+    height: 192.273px;
+    flex-shrink: 0;
+
+}
 
 .cadastroDocente{
     background-image: url(./imagens/image\ 1.png);
@@ -11,31 +17,76 @@
     background-position: bottom;
     width: 1440px;
     height: 192.273px;
-    flex-shrink: 0;
-} 
-.CadastroDocente{
-    display: flex;
-    width: 372px;
-    height: 70px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-} 
-
-.bannerportal{
-    width: 287px;
-    height: 468px;
-    flex-shrink: 0;
+    
 }
+.nav-links{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 120px;
+    gap: 70px;
+}
+a {
+    color: aliceblue;
+}
+.tituloheader{
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    
+}
+.headerlink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+.bannerportal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.bannerimg{
+    width: 578px;
+    height: 758px;
+    flex-shrink: 0;
+    
+    
+}
+
 .formcd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    background: #6C757D; 
     width: 862px;
     height: 758px;
     flex-shrink: 0;
+
 }
+button{
+    width: 774px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #000;
+    
+    background: #28A745;
+}
+
 .footercaddoc{
     background-image: url(./imagens/image\ 2.png);
     width: 1440px;
     height: 251.772px;
     flex-shrink: 0;
+    
 }
