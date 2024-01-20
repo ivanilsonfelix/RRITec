@@ -44,33 +44,30 @@
             <div class="tela">
                 <div class="tela01">
                     <img src="Assets/img/portaledu.png" alt="portaledu">
-                    <h1>Sistema de Gerenciamento de Salas</h1>
+                    <h1>Reserva de Salas</h1>
 
                 </div>
 
                 <div class="tela02">
-                    <h1>BEM VINDO!</h1>
-                    <h2>Seja bem-vindo(a) ao portal de gerenciamento de salas do Senai Classroom. Faça o seu login para
-                        prosseguir ou cadastre-se. </h2>
-
+                    <h1>Reserva de salas - Senai Classroom</h1>
+                    <h2>Faça aqui a reserva de salas do Senai Classroom!</h2>
                     <fieldset>
                         <legend id="legenda-flex">
-                           <h1>Sistema Educacional</h1>
+                            <h1>Sistema Educacional</h1>
                         </legend>
                         <!-- Criar o formulário de login -->
                         <section class="container-grid form-flex">
-                            <form class="form" action="#">
+                            <form class="form-cadastros" action="#">
 
 
                                 <div class="form-login">
 
-                                    <label for="fname">E-mail:</label>
-                                    <input type="text" id="login" name="login">
+                                    <label for="resdocente">Docente:</label>
+                                    <input type="text" id="resdocente" name="resdocente">
                                 </div>
                                 <div class="form-login">
 
-                                    <label for="password">Senha:</label>
-                                    <input type="text" id="password" name="password">
+
                                 </div>
 
                             </form>
@@ -78,67 +75,118 @@
 
                         <!-- Criar o formulário de login -->
                         <section class="container-grid form-flex">
-                            <form class="form" action="#">
+                            <form class="form-cadastros" action="#">
 
 
                                 <div class="form-login">
-                                    <div class="radio-flex">
 
-                                        <label for="docente">Docente:</label>
-                                        <input type="radio" id="docente" name="docente">
-                                        <label for="adm">Administrador:</label>
-                                        <input type="radio" id="adm" name="adm">
-                                    </div>
+                                    <label for="ressala">Sala:</label>
+                                    <input type="text" id="ressala" name="ressala">
                                 </div>
+                                <div class="form-login">
 
+                                    <label for="resdiciplina">Disciplina:</label>
+                                    <input type="text" id="resdiciplina" name="resdiciplina">
+                                </div>
 
 
                             </form>
                         </section>
-                        <!-- Criar botão de login de login -->
+                        <!-- Criar o formulário de login -->
                         <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-login" type="button"><img src="Assets/img/loginbutton.png" alt="login"><h2>Login</h2></button>
+                            <form class="form-cadastros" action="#">
 
-                        </div>
+
+                                <div class="form-login">
+
+                                    <label for="anoperiodo">Ano-Período::</label>
+                                    <input type="text" id="anoperiodo" name="anoperiodo">
+                                </div>
+                                <div class="form-login">
+
+                                    <label for="datainicio">Data Inicial::</label>
+                                    <input type="date" id="datainicio" name="datainicio">
+                                </div>
+                                <div class="form-login">
+
+                                    <label for="datafinal">Data Final:</label>
+                                    <input type="date" id="datafinal" name="datafinal">
+                                </div>
+
+
+                            </form>
                         </section>
-                         <!-- Criar botão de login de esqueci senha -->
+                        <!-- Criar o formulário de login -->
                         <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-reset-senha" type="button"><img src="Assets/img/loginbutton.png" alt="resetsenha"><h2>Esqueci minha Senha</h2></button>
+                            <form class="form-cadastros" action="#">
 
-                        </div>
+
+                                <div class="form-login">
+
+                                    <label for="qtdalunos">Quantiade de alunos:</label>
+                                    <input type="text" id="qtdalunos" name="qtdalunos">
+                                </div>
+                                <div class="form-login">
+
+                                    <label for="coddisciplina">Código da disciplina:</label>
+                                    <input type="text" id="coddisciplina" name="coddisciplina">
+                                </div>
+
+
+                            </form>
                         </section>
-                         <!-- Criar botão de cadastro -->
+                        <!-- Criar o formulário de login -->
                         <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-cadastros" type="button"><img src="Assets/img/imgcadastro.png" alt="cadastro"><a href="caddocentes.html" target="_blank"><h2>Cadastro de Docentes</h2></a></button>
+                            <form class="form-cadastros" action="#">
 
-                        </div>
+
+                                <div class="form-login">
+
+                                    <label for="senha">Acessibilidade:</label>
+
+                                </div>
+                        
+                            </form>
+
+
+
                         </section>
-                         <!-- Criar botão de cadastro -->
+                        <section class="container-grid form-acessibilidade">
+                            <form class="form-login" action="#">
+
+
+                                <div class="radio-acessibilidade-flex">
+
+                                    <label for="docente">Sim:</label>
+                                    <input type="radio" id="docente" name="docente">
+                                    <label for="adm">Não:</label>
+                                    <input type="radio" id="adm" name="adm">
+                                </div>
+
+
+                            </form>
+
+
+
+                        </section>
+
                         <section class="container-grid form-flex">
-                        <div class="botao-flex">
-                            <button class="button-cadastros" type="button">
-                                <img src="Assets/img/imgcadastro.png" alt="cadastro">
-                                <a href="cadadm.html" target="_blank"><h2>Cadastro de Administradores</h2></a>
-                            
-                            </button>
+                            <div class="botao-flex">
+                                <button class="button-cadastros" type="button">
+                                    <img src="Assets/img/imgcadastro.png" alt="cadastro">
+                                    <h2>Cadastrar</h2>
 
-                        </div>
+                                </button>
+
+                            </div>
                         </section>
-                    
-                
                     </fieldset>
-
-
                 </div>
             </div>
 
 
 
         </section>
-
 
 
 
